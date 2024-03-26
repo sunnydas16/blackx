@@ -1,0 +1,237 @@
+@font-face {
+    font-family: a;
+    src: url(/Thunder-BoldLC.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(/xn7gYHE41ni1AdIRggexSvfedN4.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection{
+    color: white;
+    background-color: black;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(57, 38, 38);
+}
+.page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.pg1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+    z-index: 2;
+}
+.nav{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: azure;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.265);
+
+}
+.nav h1{
+    font-family: b;
+    font-size: 5vh;
+    padding: 0vh 10vh;
+    position: relative;
+    color: azure;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    position: absolute;
+    padding-left: 150vh;
+    
+}
+.nav2 a{
+    text-decoration: none;
+    color: white;
+    font-family: b;
+    font-size: 2vh;
+}
+.info{
+    height: 86vh;
+    width: 100%;
+    padding-top: 31vh;
+    padding-left: 5vh;
+
+}
+.in1{
+    display: flex;
+    gap: 2vh;
+}
+.in1 h1{
+    font-family: a;
+    font-size: 100px;
+    font-weight: 200;
+    color: #999999;
+}
+.in1 h2{
+    font-family: a;
+    font-size: 100px;
+    font-weight: 200;
+    color: #FFFFFF;
+}
+.in2{
+    display: flex;
+    gap: 3vh;
+
+}
+.in2 h1{
+    font-family: a;
+    font-size: 100px;
+    font-weight: 200;
+    color: #999999;
+}
+.in2 h2{
+    font-family: a;
+    font-size: 100px;
+    font-weight: 200;
+    color: #FFFFFF;
+}
+.in3{
+    display: flex;
+    gap: 3vh;
+
+}
+.in3 h1{
+    font-family: a;
+    font-size: 100px;
+    font-weight: 200;
+    color: #999999;
+}
+.in3 h2{
+    font-family: a;
+    font-size: 100px;
+    font-weight: 200;
+    color: #FFFFFF;
+}
+.in4{
+    display: flex;
+    gap: 3vh;
+
+}
+.in4 h1{
+    font-family: a;
+    font-size: 100px;
+    font-weight: 200;
+    color: #999999;
+}
+.in4 h2{
+    font-family: a;
+    font-size: 100px;
+    font-weight: 200;
+    color: #FFFFFF;
+}
+.info a{
+    color: white;
+    text-decoration: none;
+    font-size: 5vh;
+    font-weight: 10;
+
+}
+.para{
+    width: 30%;
+    position: absolute;
+    margin-left: 110vh;
+    bottom: 9vh;
+}
+.para p{
+    font-family: b;
+    font-size: 26px;
+    color: white;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: coral;
+    border-radius: 70px;
+}
+.fpro{
+    height: 20vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    margin-left: 4.3vh;
+}
+.fpro h1{
+    font-family: a;
+    font-size: 90px;
+    padding: 7vh ;  
+}
+.fpro a{
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: a;
+    color: black;
+    padding: 5vh 10vh;
+    letter-spacing: 2vh;
+
+}
+.demo{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pro1{
+    height: 50vh;
+    width: 50vh;
+    background-image: url(/portfolio.png);
+    background-size: cover;
+}
+.pro2{
+    height: 50vh;
+    width: 50vh;
+    background-image: url(/raxaul.png);
+    background-size: cover;
+    background-color: rgb(27, 72, 72);
+}
+.pro3{
+    height: 50vh;
+    width: 50vh;
+    background-image: url(/black.png);
+    background-color: rgb(77, 84, 84);
+}
+.demo a{
+    text-decoration: none;
+    color: black;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.bottom marquee{
+    font-family: b;
+    font-size: 20px;
+}
